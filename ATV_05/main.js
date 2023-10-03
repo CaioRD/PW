@@ -177,7 +177,7 @@ function insertItem(item, index) {
 
   tr.innerHTML = `
     <td>${item.nome}</td>
-    <td>nota 1: ${item.nota2}</td>
+    <td>nota 1: ${item.nota1}</td>
     <td>nota 2: ${item.nota2}</td>
     <td class="acao">
       <button onclick="editItem(${index})"><i class='bx bx-edit' ></i></button>
